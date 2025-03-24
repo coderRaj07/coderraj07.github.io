@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #007BFF;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    padding: 15px 20px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header Section */
+header {
+    padding: 50px;
+    background: #007BFF;
+    color: white;
+}
+
+.btn {
+    background: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Skills */
+.skill-list span {
+    background: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Projects */
+.project {
+    background: white;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact */
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+}
